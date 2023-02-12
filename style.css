@@ -1,0 +1,35 @@
+body {
+    font-family: arial;
+}
+
+h1 { 
+    text-align: center;
+}
+
+line {
+    stroke-width: 5;
+    stroke: black;
+}
+
+.row {
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-left: 35px;
+    margin-bottom: 5px;
+  }
+
+.LargeColumn {
+    display:flex;
+    flex-direction:column;
+    flex:60%;
+    justify-content: none;
+}
+
+.SmallColumn {
+    display:flex;
+    flex-direction:column;
+    flex:40%;
+    justify-content: none;
+}

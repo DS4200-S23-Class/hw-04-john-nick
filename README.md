@@ -1,7 +1,7 @@
 # hw-04
 hw-04 - Event Handling
 
-Link to GitHub Pages: `[insert your clickable hyperlink here]`
+Link to GitHub Pages: `[https://ds4200-s23-class.github.io/hw-04-john-nick/]`
 
 Clone this repo and work locally. Be sure to push the final version of your code (and any significant updates along the way) before submitting. 
 
