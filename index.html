@@ -1,47 +1,63 @@
 <!DOCTYPE html>
-<html> 
-
+<html>
 <head>
     <meta charset=utf-8/>
 	<link rel="stylesheet" href="style.css">
-	<script type="text/javascript" src="ext.js"></script>
+	<script type="text/javascript" src="./ext.js"></script>
 	<title>hw-04</title>
 </head>
-
-
 <body>
     <h1>hw-04: Event Handling</h1>
-
     <div class=row>
     	<div class="LargeColumn">
-
             <div class=shapes>
-                <svg height="210" width="500">
+                <svg id=graph height="210" width="500">
                     <line x1="5" y1="205" x2="5" y2="5"/>
                     <line x1="5" y1="205" x2="205" y2="205"/>
-                    <circle cx=25 cy=160 r=7 />
-                    <circle cx=45 cy=120 r=7 />
-                    <circle cx=125 cy=160 r=7 />
-                    <circle cx=185 cy=20 r=7 />
+                    <circle onclick="outline_text()" cx=25 cy=160 r=7 />
+                    <circle onclick="outline_text()" cx=45 cy=120 r=7 />
+                    <circle onclick="outline_text()" cx=125 cy=160 r=7 />
+                    <circle onclick="outline_text()" cx=185 cy=20 r=7 />
                 </svg>
             </div>
-
-
         </div>
-
-        
         <div class="SmallColumn">
-
+            <p id="point">Last clicked point..</p>
+            <form>
+                Select new x position:
+                <select id="x_select">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                </select>
+                Select new y position:
+                <select id="y_select">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                </select>
+                <br><br>
+                <input type="button" onclick="new_point()" value="Create">
+            </form>
         </div>
-
     </div>
-
-    <h2 id=shift>Acknowledgements</h2>
+    <h2>Acknowledgements</h2>
 	<ul>
-	    <li>Fill Thing</li>
-	    <li>Fill Thing</li>
+	    <li>https://www.w3schools.com/js/js_input_examples.asp</li>
+	    <li>https://www.w3schools.com/graphics/svg_intro.asp</li>
+        <li>https://www.w3schools.com/html/default.asp</li>
 	</ul>
-
 </body>
-
 </html>

@@ -32,12 +32,12 @@ circle {
     display:flex;
     flex-direction:column;
     flex:60%;
-    justify-content: none;
+    /*justify-content: none;*/
 }
 
 .SmallColumn {
     display:flex;
     flex-direction:column;
     flex:40%;
-    justify-content: none;
+    /*justify-content: none;*/
 }
